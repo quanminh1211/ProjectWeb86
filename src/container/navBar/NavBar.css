@@ -1,0 +1,22 @@
+.navBar ul{
+    display: flex;
+    gap: 16px;
+    flex-direction: column;
+    width: 217px;
+}
+
+.navBar {
+    padding-left: 8%;
+    padding-top: 40px;
+    width: 350px;
+    border-right: 1px solid #c8c0c0;
+}
+
+.navBar li {
+    list-style-type: none;
+    height: 24px;
+    display: flex;
+    width: 217px;
+    justify-content: space-between;
+}
+
