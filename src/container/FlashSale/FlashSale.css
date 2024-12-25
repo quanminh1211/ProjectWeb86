@@ -1,0 +1,40 @@
+.countdown-timer {
+
+    margin-top: 50px;
+}
+
+h3 {
+    color: red;
+    font-size: 1.2rem;
+    margin: 0;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+.countdown-container {
+    display: flex;
+    gap: 20px;
+}
+
+.countdown-body {
+    display: flex;
+    align-items: center;
+    gap: 70px;
+    margin-top: 20px;
+}
+
+.time-box {
+    text-align: center;
+}
+
+.time {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.label {
+    font-size: 0.8rem;
+    color: gray;
+}
