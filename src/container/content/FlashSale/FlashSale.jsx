@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "./FlashSale.css";
+import ProductList from "../productList/ProductList.jsx";
 
 const FlashSale = () => {
   // Set the target time (e.g., 3 days from now)
@@ -33,6 +34,7 @@ const FlashSale = () => {
   }, []);
 
   return (
+    <>
     <div className="countdown-timer">
       <h3>Today's</h3>
       <div className="countdown-body">
@@ -57,6 +59,8 @@ const FlashSale = () => {
       </div>
       </div>
     </div>
+    <ProductList/>
+    </>
   );
 };
 
