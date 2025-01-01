@@ -1,0 +1,11 @@
+.viewAll_btn {
+    background-color: #db4444;
+    color: #fafafa;
+    width: 220px;
+    height: 45px;
+    font-weight: 500;
+    font-size: 16px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+}

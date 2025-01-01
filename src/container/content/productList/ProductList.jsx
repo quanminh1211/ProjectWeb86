@@ -1,21 +1,28 @@
-// ProductList.jsx
-import { useState, useRef } from "react";
+import { useRef } from "react";
 import "./ProductList.css";
 import { productListData } from "../../../data";
 import Product from "../../../components/Product";
 
 const ProductList = () => {
+    // Create a reference to the product list can access to DOM
     const listRef = useRef(null);
-
+    // Get the DOM element referenced by listRef
     const handleScroll = (direction) => {
-        const itemWidth = 280; 
-        if (listRef.current) {
-            const scrollAmount = direction === 'left' 
-                ? -itemWidth 
-                : itemWidth;
-            listRef.current.scrollBy({
+        const list = listRef.current;
+
+        if (list) {
+            // Get the width of the first element in the list
+            // Use optional chaining to avoid errors if the element doesn't exist
+            // Default to 280px if the width is unavailable
+            const itemWidth = list.firstElementChild?.offsetWidth || 280; 
+            // Determine the scroll distance based on the direction
+            // Negative value (-itemWidth) for left, positive value (itemWidth) for right
+            const scrollAmount = direction === 'left' ? -itemWidth : itemWidth;
+            // Scroll the list by the calculated distance
+            // Use `behavior: 'smooth'` for a smooth scrolling effect
+            list.scrollBy({
                 left: scrollAmount,
-                behavior: 'smooth'
+                behavior: 'smooth',
             });
         }
     };
@@ -25,19 +32,19 @@ const ProductList = () => {
             <div className="flash-header">
                 <div className="navigation-buttons">
                     <button onClick={() => handleScroll('left')}>
-                        <box-icon name='chevron-left'></box-icon>
+                        <box-icon name="chevron-left"></box-icon>
                     </button>
                     <button onClick={() => handleScroll('right')}>
-                        <box-icon name='chevron-right'></box-icon>
+                        <box-icon name="chevron-right"></box-icon>
                     </button>
                 </div>
             </div>
             <div className="product-list-container" ref={listRef}>
                 {productListData.map((product) => (
-                    <Product 
-                        key={product.id} 
-                        img={product.image} 
-                        name={product.name} 
+                    <Product
+                        key={product.id}
+                        img={product.image}
+                        name={product.name}
                         price={product.price}
                         originalPrice={product.originalPrice}
                         discount={product.discount}

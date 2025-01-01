@@ -1,0 +1,39 @@
+.bigImg-container {
+    width: 1170px;
+    height: 500px;
+    background-color: #000000;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 56px;
+    padding-right: 44px;
+}
+
+.bigImg-left {
+    display: flex;
+    flex-direction: column;
+    gap: 45px;
+}
+
+.bigImg-left h4 {
+    color: #00FF66;
+}
+
+.bigImg-left h1 {
+    color: #fafafa;
+    font-weight: 600;
+    font-size: 48px;
+}
+
+.bigImg-left button {
+    width: 171px;
+    height: 56px;
+    background-color: #00FF66;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    color: #ffffff;
+    font-weight: 500;
+    font: 16px;
+}
+

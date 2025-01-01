@@ -38,3 +38,16 @@
     gap: 20px;
     scroll-behavior: smooth;
 }
+
+.product-list-container {
+    display: flex;
+    overflow-x: auto; 
+    scroll-behavior: smooth; 
+    -ms-overflow-style: none; 
+    scrollbar-width: none; 
+}
+
+.product-list-container::-webkit-scrollbar {
+    display: none; 
+}
+
