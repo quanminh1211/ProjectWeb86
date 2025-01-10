@@ -1,0 +1,14 @@
+.listProductSelling-container {
+    display: flex;
+    gap: 40px;
+    padding-top: 20px;
+    padding-left: 40px;
+}
+
+.bestSelling-container {
+    margin-top: 50px;
+}
+
+.bestSelling-container h1 {
+    margin-top: 20px;
+}

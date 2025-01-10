@@ -9,6 +9,7 @@ import BestSelling from './container/content/bestSelling/bestSelling.jsx';
 import BigImg from './container/content/BigImg/BigImg.jsx';
 import ExploreProduct from './container/content/exploreProduct/ExploreProduct.jsx';
 import NewArrival from './container/content/newArrival/NewArrival.jsx';
+import BrowseByCategory from './container/content/BrowseByCategory/BrowseByCategory.jsx';
 
 function App() {
 
@@ -21,6 +22,7 @@ function App() {
       <SliderImage />
       </div>
       <FlashSale />
+      <BrowseByCategory/>
       <BestSelling />
       <BigImg />
       <ExploreProduct/>
