@@ -10,6 +10,8 @@ import BigImg from './container/content/BigImg/BigImg.jsx';
 import ExploreProduct from './container/content/exploreProduct/ExploreProduct.jsx';
 import NewArrival from './container/content/newArrival/NewArrival.jsx';
 import BrowseByCategory from './container/content/BrowseByCategory/BrowseByCategory.jsx';
+import Service from './container/content/serviceAndDelivery/Service.jsx';
+import Footer from './container/footer/Footer.jsx';
 
 function App() {
 
@@ -27,7 +29,9 @@ function App() {
       <BigImg />
       <ExploreProduct/>
       <NewArrival/>
+      <Service />
       </div>
+      <Footer/>
     </>
   )
 }

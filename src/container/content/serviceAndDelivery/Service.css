@@ -1,0 +1,23 @@
+.service-container {
+    display: flex;
+    padding-left: 12%;
+    gap: 88px;
+    margin-top: 100px;
+}
+
+.service-item {
+    width: 262px;
+    height: 161px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+    text-align: center;
+}
+
+.service-item img {
+    width: 88px;
+    height: 88px;
+    object-fit: cover;
+    margin-left: 90px;
+}

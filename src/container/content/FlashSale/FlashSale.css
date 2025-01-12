@@ -1,14 +1,13 @@
 .countdown-timer {
-
     margin-top: 50px;
 }
 
-h3 {
+.timer-container h3 {
     color: red;
     font-size: 1.2rem;
     margin: 0;
 }
 
-h1 {
+.countdown-timer h1 {
     font-size: 36px;
 }
