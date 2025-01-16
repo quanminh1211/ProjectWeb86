@@ -1,0 +1,44 @@
+.container {
+    padding: 2rem;
+    border-radius: 8px;
+    width: 400px;
+    text-align: center;
+  }
+  
+  .title {
+    margin-bottom: 1.5rem;
+    font-size: 1.5rem;
+    border-bottom: 2px solid #fff;
+    padding-bottom: 0.5rem;
+  }
+  
+
+  .button {
+    width: 100%;
+    padding: 1rem;
+    margin-top: 1rem;
+    border-radius: 4px;
+    border: none;
+    background-color: #1f6fec;
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  .loginText {
+    margin-top: 1rem;
+    font-size: 0.9rem;
+  }
+  
+  .link {
+    color: #1f6fec;
+    text-decoration: none;
+  }
+
+  .container input:active {
+    outline: none;
+  }
+
+  .formAu input {
+    max-width: 300px;
+  }

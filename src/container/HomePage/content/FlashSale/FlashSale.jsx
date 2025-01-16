@@ -1,7 +1,7 @@
 import React from "react";
-import ProductList from "../productList/ProductList.jsx";
-import ViewAll from "../../../components/ViewAll.jsx";
-import CountDownTimer from "../../../components/CountDownTimer.jsx";
+import ProductList from "../ProductList/ProductList.jsx";
+import ViewAll from "../../../../components/ViewAll.jsx";
+import CountDownTimer from "../../../../components/CountDownTimer.jsx";
 import './FlashSale.css'
 
 const FlashSale = () => {

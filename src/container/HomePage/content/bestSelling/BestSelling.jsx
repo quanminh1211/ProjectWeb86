@@ -1,7 +1,7 @@
 import React from "react";
 import "./BestSelling.css";
-import { productListData } from "../../../data.js";
-import Product from "../../../components/Product.jsx";
+import { productListData } from "../../../../data.js";
+import Product from "../../../../components/Product.jsx";
 
 function BestSelling() {
   

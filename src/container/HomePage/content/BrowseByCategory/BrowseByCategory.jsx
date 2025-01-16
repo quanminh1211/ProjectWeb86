@@ -1,6 +1,6 @@
 import "./BrowseByCategory.css";
 import CategoryList from "../CategoryList/CategoryList.jsx";
-import NavigationButtons from "../../../ultils/NavigationButtons.jsx";
+import NavigationButtons from "../../../../ultils/NavigationButtons.jsx";
 
 const BrowseByCategory = () => {
     const handlePrev = () => {

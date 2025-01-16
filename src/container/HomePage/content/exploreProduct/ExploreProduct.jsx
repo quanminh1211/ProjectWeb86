@@ -1,5 +1,5 @@
-import ProductList from "../productList/ProductList";
-import ViewAll from "../../../components/ViewAll";
+import ProductList from "../ProductList/ProductList.jsx";
+import ViewAll from "../../../../components/ViewAll.jsx";
 import React from "react";
 import './ExploreProduct.css'
 

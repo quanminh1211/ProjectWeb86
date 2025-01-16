@@ -1,7 +1,7 @@
 import { useRef } from "react";
 import "./ProductList.css";
-import { productListData } from "../../../data";
-import Product from "../../../components/Product";
+import { productListData } from "../../../../data.js";
+import Product from "../../../../components/Product.jsx";
 
 const ProductList = () => {
     // Create a reference to the product list can access to DOM

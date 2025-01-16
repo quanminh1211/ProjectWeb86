@@ -3,10 +3,10 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 import "./Slider.css";  // Make sure your custom styles are defined here
-import First from "../../assets/images/2-1617205179-141-width660height371.jpg";
-import Second from "../../assets/images/chiem-nguong-hinh-anh-iphone-14-pro-didongmy.jpg";
-import Third from "../../assets/images/hinh-nen-dep-cho-iphone-16-series-thumb_7cf4dae808ea442083dbe9e82e6baefb.webp";
-import Fourth from "../../assets/images/trasera-iphone-12-pro.webp";
+import First from "../../../assets/images/2-1617205179-141-width660height371.jpg";
+import Second from "../../../assets/images/chiem-nguong-hinh-anh-iphone-14-pro-didongmy.jpg";
+import Third from "../../../assets/images/hinh-nen-dep-cho-iphone-16-series-thumb_7cf4dae808ea442083dbe9e82e6baefb.webp";
+import Fourth from "../../../assets/images/trasera-iphone-12-pro.webp";
 
 function SliderImage() {
   const settings = {

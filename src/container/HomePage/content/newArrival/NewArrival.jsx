@@ -1,9 +1,9 @@
 import React from "react";
 import "./NewArrival.css";
-import ImgStation from "../../../assets/images/ImgBig/big2..svg";
-import ImgWoman from "../../../assets/images/ImgBig/big3..svg";
-import ImgSpeakers from "../../../assets/images/ImgBig/big4..svg";
-import ImgPerfume from "../../../assets/images/ImgBig/big5..svg";
+import ImgStation from "../../../../assets/images/ImgBig/big2..svg";
+import ImgWoman from "../../../../assets/images/ImgBig/big3..svg";
+import ImgSpeakers from "../../../../assets/images/ImgBig/big4..svg";
+import ImgPerfume from "../../../../assets/images/ImgBig/big5..svg";
 
 function NewArrival() {
   return (

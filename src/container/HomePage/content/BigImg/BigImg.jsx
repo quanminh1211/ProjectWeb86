@@ -1,7 +1,7 @@
 import React from 'react';
-import BigImg1 from '../../../assets/images/ImgBig/big1..svg'
+import BigImg1 from '../../../../assets/images/ImgBig/big1..svg'
 import './BigImg.css'
-import CountDown from '../../../components/CountDown';
+import CountDown from '../../../../components/CountDown.jsx';
 
 function BigImg() {
     return (

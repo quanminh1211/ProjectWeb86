@@ -1,8 +1,8 @@
 import React from 'react';
 import './Service.css'
-import ServiceIcon1 from '../../../assets/images/ImgBig/icon1..svg'
-import ServiceIcon2 from '../../../assets/images/ImgBig/icon2..svg'
-import ServiceIcon3 from '../../../assets/images/ImgBig/icon3..svg'
+import ServiceIcon1 from '../../../../assets/images/ImgBig/icon1..svg'
+import ServiceIcon2 from '../../../../assets/images/ImgBig/icon2..svg'
+import ServiceIcon3 from '../../../../assets/images/ImgBig/icon3..svg'
 
 function Service(props) {
     return (

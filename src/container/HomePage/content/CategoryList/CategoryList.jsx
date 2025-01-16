@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import CategoryCard from "../../../components/CategoryCard.jsx";
+import CategoryCard from "../../../../components/CategoryCard.jsx";
 import "./CategoryList.css";
 
 const categories = [

@@ -1,0 +1,12 @@
+.contentTop {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.content {
+    padding-left: 7%;
+    padding-right: 7%;
+    padding-top: 130px;
+}
